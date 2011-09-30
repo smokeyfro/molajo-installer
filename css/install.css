@@ -140,10 +140,12 @@ width:162px;
 border-top:1px solid #ccc;
 border-left:1px solid #ccc;
 background:#F7FAEF;
+z-index:2;
 }
 #language li{
 background:none;
 border:0;
+margin:0;
 border-right:1px solid #ccc;
 border-bottom:1px solid #ccc;
 }
@@ -166,6 +168,23 @@ background-color:#fff;
 padding-right:22px;
 background-position:100% -48px;
 }
+#language strong.en-us{
+background-position:100% 2px;
+}
+#language strong.en-uk{
+background-position:100% -48px;
+}
+#language strong.it-it{
+background-position:100% -148px;
+}
+#language strong.po-br{
+background-position:100% -198px;
+}
+#language strong.de-de{
+background-position:100% -98px;
+}
+
+/* languages drop down */
 #language .en-us a{
 background-position:4px 4px;
 }
@@ -181,9 +200,7 @@ background-position:4px -145px;
 #language .po-br a{
 background-position:4px -195px;
 }
-#language .en-us a{
-background-position:4px 4px;
-}
+
 
 #version,
 #language,
@@ -234,7 +251,7 @@ border-left:1px solid #FFCC99;
 #update-installer span,
 #select-language span{
 display:block;
-width:110px;
+width:115px;
 }
 #select-language span{
 background:transparent url(../images/select-language.png) no-repeat 93% 50%;

@@ -19,10 +19,13 @@ $(function() {
 	 
 	 $(this).focus(function() {
 	  if($(this).val() === $(this).attr('title')) {$(this).val('').addClass('focused');}
+	  $(this).parents("li").addClass("focus");
 	 });
 	 
 	 $(this).blur(function() {
 	  if($(this).val() === '') {$(this).val($(this).attr('title')).removeClass('focused');}
+	  $(this).parents("li").removeClass("focus");
 	 });
+	 
 	});
 });

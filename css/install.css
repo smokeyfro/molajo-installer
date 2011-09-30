@@ -332,6 +332,15 @@ background-image: -webkit-linear-gradient(#fff, #FEFBF7);
 background-image: linear-gradient(top, #fff, #FEFBF7);
 /*filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fff', EndColorStr='#FEFBF7');*/
 }
+.forms li.focus{
+border:1px solid #DCD9D6;
+background-color: #EDE9E6;
+background-image: -moz-linear-gradient(top, #F7F4F1, #EDE9E6);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #F7F4F1),color-stop(1, #EDE9E6));
+background-image: -webkit-linear-gradient(#F7F4F1, #EDE9E6);
+background-image: linear-gradient(top, #F7F4F1, #EDE9E6);
+/*filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#F7F4F1', EndColorStr='#EDE9E6');*/
+}
 .forms .inner-wrap{
 padding:5px;
 display:block;
@@ -359,7 +368,9 @@ color: #999;
 float: left;
 width:240px;
 }
-
+input.focus{
+outline:0;
+}
 span.note{
 display: block;
 float: left;

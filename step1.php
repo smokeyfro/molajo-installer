@@ -17,7 +17,50 @@
 		</div>
 		<div id="main" class="step2">
 			<div class="inner">
-			
+				<h2>Database Setup</h2>
+				<p>Enter your database connection details below. Contact your host if you are not sure what these are.<br />
+				All fields marked with a <strong>*</strong> are required.</p>
+				
+				<form action="">
+					<ol class="list-reset forms">
+						<li>
+							<span class="inner-wrap">
+								<label for="host" class="inlined">Host name</label>
+								<input type="text" class="input-text" id="host" name="host" title="Host name" />
+								<span class="note"><strong>*</strong> This is usually <b>localhost</b>.</span>
+							</span>
+						</li>
+						<li>
+							<span class="inner-wrap">
+								<label for="name" class="inlined">Database name</label>
+								<input type="text" class="input-text" id="name" name="name" title="Database name" />
+								<span class="note"><strong>*</strong> The name of the database you are installing Molajo on.</span>
+							</span>
+						</li>
+						<li>
+							<span class="inner-wrap">
+								<label for="username" class="inlined">Username</label>
+								<input type="text" class="input-text" id="username" name="username" title="Username" />
+								<span class="note"><strong>*</strong> Your MySQL database username.</span>
+							</span>
+						</li>
+						<li>
+							<span class="inner-wrap">
+								<label for="password" class="inlined">Password</label>
+								<input type="text" class="input-text" id="password" name="password" title="Password" />
+								<span class="note"><strong>*</strong> Your MySQL database password.</span>
+							</span>
+						</li>
+						<li>
+							<span class="inner-wrap">
+								<label for="prefix" class="inlined">Table prefix</label>
+								<input type="text" class="input-text" id="prefix" name="prefix" title="Table prefix" />
+								<span class="note"><strong>*</strong> By default this is set to jos_ but we recommended that you change this.</span>
+							</span>
+						</li>
+					</ol>
+					
+				</form>
 			</div>
 		</div>
 	</div>

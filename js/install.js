@@ -15,17 +15,21 @@ $(function() {
 	
 	// Inline labels
 	$('input[title]').each(function() {
-	 if($(this).val() === '') {$(this).val($(this).attr('title'));}
-	 
-	 $(this).focus(function() {
-	  if($(this).val() === $(this).attr('title')) {$(this).val('').addClass('focused');}
-	  $(this).parents("li").addClass("focus");
-	 });
-	 
-	 $(this).blur(function() {
-	  if($(this).val() === '') {$(this).val($(this).attr('title')).removeClass('focused');}
-	  $(this).parents("li").removeClass("focus");
-	 });
-	 
+		if($(this).val() === '') {$(this).val($(this).attr('title'));}
+		$(this).focus(function() {
+		if($(this).val() === $(this).attr('title')) {$(this).val('').addClass('focused');}
+			$(this).parents("li").addClass("focus");
+		});
+		$(this).blur(function() {
+		if($(this).val() === '') {$(this).val($(this).attr('title')).removeClass('focused');}
+			$(this).parents("li").removeClass("focus");
+		});
+	});
+	
+	// Faux radio toggle
+	$('.form input[type="radio"]').click( function(){
+		$(this).attr('checked', 'checked');
+		$('.form label.label-selected').removeClass('label-selected');
+		$(this).parent().addClass('label-selected');
 	});
 });

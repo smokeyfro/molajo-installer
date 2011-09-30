@@ -59,6 +59,11 @@
 							</span>
 						</li>
 					</ol>
+					
+					<fieldset class="radios">
+			            <label class="label_radio" for="mysql"><input name="dbtype" id="mysql" value="myql" type="radio" checked="">MySQL</label>
+			            <label class="label_radio" for="mysqli"><input name="dbtype" id="mysqli" value="mysqli" type="radio">MySQLi</label>
+			        </fieldset>
 				</form>
 				
 				<div id="actions">

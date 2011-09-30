@@ -46,7 +46,7 @@
 					</li>-->
 				</ul>
 				<div id="actions">
-					<a href="#" class="btn-primary"><strong>Ready?</strong> Lets get started! &raquo;</a>
+					<a href="step1.php" class="btn-primary"><strong>Ready?</strong> Lets get started! &raquo;</a>
 				</div>
 			</div>
 		</div>

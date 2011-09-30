@@ -60,10 +60,20 @@
 						</li>
 					</ol>
 					
-					<fieldset class="radios">
-			            <label class="label_radio" for="mysql"><input name="dbtype" id="mysql" value="myql" type="radio" checked="">MySQL</label>
-			            <label class="label_radio" for="mysqli"><input name="dbtype" id="mysqli" value="mysqli" type="radio">MySQLi</label>
-			        </fieldset>
+					<ol class="list-rest radios">
+						<li>
+							<span class="label">Database type</span>
+							<label class="radio-left" for="mysql"><input name="dbtype" id="mysql" value="myql" type="radio">MySQL</label>
+							<label class="radio-right label-selected" for="mysqli"><input name="dbtype" id="mysqli" value="mysqli" type="radio" checked="checked">MySQLi</label>
+							<span class="note">MySQLi is recommended, but not all hosts support it. <a href="#">Learn more</a>.</span>
+						</li>
+						<li>
+							<span class="label">Existing database</span>
+							<label class="radio-left" for="remove"><input name="existingdb" id="remove" value="remove" type="radio">Remove</label>
+							<label class="radio-right label-selected" for="backup"><input name="existingdb" id="backup" value="backup" type="radio" checked="checked">Backup</label>
+							<span class="note alt">BIf you have an existing database with the same name, would you like it to be replaced or backed up.</span>
+						</li>
+					</ol>
 				</form>
 				
 				<div id="actions">

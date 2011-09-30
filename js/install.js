@@ -27,9 +27,9 @@ $(function() {
 	});
 	
 	// Faux radio toggle
-	$('.form input[type="radio"]').click( function(){
+	$('.radios input[type="radio"]').click( function(){
 		$(this).attr('checked', 'checked');
-		$('.form label.label-selected').removeClass('label-selected');
+		$('.radios label.label-selected').removeClass('label-selected');
 		$(this).parent().addClass('label-selected');
 	});
 });

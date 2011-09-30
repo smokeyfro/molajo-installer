@@ -324,7 +324,7 @@ display: none;
 }
 .forms li{
 border:1px solid #EDE9E6;
-margin-bottom:20px;
+margin-bottom:10px;
 background-color: #FEFBF7;
 background-image: -moz-linear-gradient(top, #fff, #FEFBF7);
 background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #fff),color-stop(1, #FEFBF7));
@@ -368,8 +368,8 @@ color: #999;
 float: left;
 width:240px;
 }
-input.focus{
-outline:0;
+input:focus{
+outline:none;
 }
 span.note{
 display: block;
@@ -377,5 +377,5 @@ float: left;
 margin-left: 10px;
 font-size:12px;
 color:#999;
-margin-top:3px;
+margin-top:4px;
 }

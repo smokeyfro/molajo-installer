@@ -279,6 +279,7 @@ text-decoration:none;
 -webkit-border-radius: 25px;
 border-radius: 25px;
 font-size:17px;
+float:left;
 }
 #actions a:hover{
 opacity:0.7;
@@ -291,7 +292,9 @@ bottom:-1px;
 #actions .btn-primary{
 float:right;
 }
-
+#actions .btn-secondary{
+background:#D3A776;
+}
 #footer{
 height:30px;
 line-height:30px;

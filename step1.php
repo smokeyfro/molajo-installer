@@ -59,8 +59,12 @@
 							</span>
 						</li>
 					</ol>
-					
 				</form>
+				
+				<div id="actions">
+					<a href="index.php" class="btn-secondary">&laquo; <strong>P</strong>revious</a>
+					<a href="step2.php" class="btn-primary"><strong>N</strong>ext &raquo;</a>
+				</div>
 			</div>
 		</div>
 	</div>

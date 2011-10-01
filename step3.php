@@ -13,12 +13,13 @@
 				<a href="http://www.molajo.org" title="Click here to open the Molajo website in a new window" target="_blank">Molajo 
 				<span>Click here to view the Molajo website</span></a>
 			</h1>
-			<strong>Version 1.6.1 <span>Step 3 of 4</span></strong>
+			<strong>Version 1.6.1 <span>Step 4 of 4</span></strong>
 		</div>
-		<div id="main" class="step2">
+		<div id="main" class="step3">
 			<div class="inner">
-				<h2>Site Information</h2>
-				<p>Enter your site information. All fields marked with a <strong>*</strong> are required.</p>
+				<h2>Congratulations, you have successfully installed Molajo!</h2>
+				<p>For security reasons, you now need to remove the installation directory from your Molajo install. 
+				Either delete the folder manually from your site root, or enter your ftp credentials below and we will attempt to do it for you.</p>
 				
 				<form action="">
 					<ol class="list-reset forms">
@@ -59,8 +60,9 @@
 				</form>
 				
 				<div id="actions">
-					<a href="step1.php" class="btn-secondary">&laquo; <strong>P</strong>revious</a>
-					<a href="step3.php" class="btn-primary"><strong>N</strong>ext &raquo;</a>
+					<a href="step2.php" class="btn-secondary">&laquo; <strong>P</strong>revious</a>
+					<a href="#" class="btn-primary">Go to admin &raquo;</a>
+					<a href="#" class="btn-primary">View your site &raquo;</a>
 				</div>
 				
 			</div>

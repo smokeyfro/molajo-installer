@@ -71,7 +71,7 @@
 							<span class="label">Existing database</span>
 							<label class="radio-left" for="remove"><input name="existingdb" id="remove" value="remove" type="radio">Remove</label>
 							<label class="radio-right label-selected" for="backup"><input name="existingdb" id="backup" value="backup" type="radio" checked="checked">Backup</label>
-							<span class="note alt">BIf you have an existing database with the same name, would you like it to be replaced or backed up.</span>
+							<span class="note alt">If you have an existing database with the same name, would you like it to be replaced or backed up.</span>
 						</li>
 					</ol>
 				</form>

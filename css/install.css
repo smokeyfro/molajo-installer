@@ -268,7 +268,9 @@ margin:1em 0;
 overflow:hidden;
 margin-top:2em;
 padding-bottom:1em;
+clear:both;
 }
+#sample-data,
 #actions a{
 display:block;
 background:#3C2415;
@@ -281,10 +283,12 @@ border-radius: 25px;
 font-size:17px;
 float:left;
 }
+#sample-data:hover,
 #actions a:hover{
 opacity:0.7;
 cursor:pointer;
 }
+#sample-data:focus,
 #actions a:focus{
 position:relative;
 bottom:-1px;
@@ -292,9 +296,26 @@ bottom:-1px;
 #actions .btn-primary{
 float:right;
 }
+#sample-data,
 #actions .btn-secondary{
 background:#D3A776;
 }
+
+.sample-data{
+width:100%;
+float:left;
+clear:both;
+margin-bottom:20px;
+}
+#sample-data{
+padding:7px 15px;
+font-size:13px;
+margin-top:5px;
+}
+.sample-data .note{
+width:500px;
+}
+
 #footer{
 height:30px;
 line-height:30px;
@@ -396,7 +417,7 @@ width:440px;
 .radios .alt{
 margin-top:-2px
 }
-.radios .note a{
+a{
 color:#D2A576;
 }
 .radio-left,

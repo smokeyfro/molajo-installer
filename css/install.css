@@ -270,6 +270,7 @@ margin-top:2em;
 padding-bottom:1em;
 clear:both;
 }
+.remove-install a,
 #sample-data,
 #actions a{
 display:block;
@@ -283,30 +284,40 @@ border-radius: 25px;
 font-size:17px;
 float:left;
 }
+.remove-install a:hover,
 #sample-data:hover,
 #actions a:hover{
 opacity:0.7;
 cursor:pointer;
 }
+.remove-install a:focus,
 #sample-data:focus,
 #actions a:focus{
 position:relative;
 bottom:-1px;
 }
+#actions a strong{
+text-decoration:underline;
+}
+#actions .btn-primary.alt{
+margin-left:20px;
+}
 #actions .btn-primary{
 float:right;
 }
+.remove-install a,
 #sample-data,
 #actions .btn-secondary{
 background:#D3A776;
 }
-
+.remove-install,
 .sample-data{
 width:100%;
 float:left;
 clear:both;
 margin-bottom:20px;
 }
+.remove-install a,
 #sample-data{
 padding:7px 15px;
 font-size:13px;
@@ -459,4 +470,38 @@ float:left;
 width:110px;
 color:#666;
 padding-top:5px;
+}
+
+.summary{
+
+}
+.summary h3{
+font-size:17px;
+margin-bottom:10px;
+}
+.summary ul{
+border-top:1px dashed #ddd;
+margin-bottom:20px;
+width:100%;
+float:left;
+}
+.summary li{
+width:100%;
+float:left;
+padding:4px 0;
+border-bottom:1px dashed #ddd;
+}
+.summary strong,
+.summary span{
+display:block;
+float:left;
+}
+.summary strong{
+width:150px;
+}
+.summary span{
+width:200px;
+}
+.summary{
+
 }

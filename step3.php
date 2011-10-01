@@ -18,50 +18,24 @@
 		<div id="main" class="step3">
 			<div class="inner">
 				<h2>Congratulations, you have successfully installed Molajo!</h2>
-				<p>For security reasons, you now need to remove the installation directory from your Molajo install. 
-				Either delete the folder manually from your site root, or enter your ftp credentials below and we will attempt to do it for you.</p>
+				<p>For security reasons, you now need to remove the installation directory from your Molajo install. Simply click the "Remove installation directory" button below &amp; we'll attempt to do it for you. </p>
 				
-				<form action="">
-					<ol class="list-reset forms">
-						<li>
-							<span class="inner-wrap">
-								<label for="site" class="inlined">Site name</label>
-								<input type="text" class="input-text" id="site" name="site" title="Site name" />
-								<span class="note"><strong>*</strong> Your site name.</span>
-							</span>
-						</li>
-						<li>
-							<span class="inner-wrap">
-								<label for="email" class="inlined">Your email address</label>
-								<input type="text" class="input-text" id="email" name="email" title="Your email address" />
-								<span class="note"><strong>*</strong> Enter a valid email address. This is where your login info will be sent.</span>
-							</span>
-						</li>
-						<li>
-							<span class="inner-wrap">
-								<label for="username" class="inlined">Username</label>
-								<input type="text" class="input-text" id="username" name="username" title="Username" />
-								<span class="note"><strong>*</strong> Enter your admin username.</span>
-							</span>
-						</li>
-						<li>
-							<span class="inner-wrap">
-								<label for="password" class="inlined">Password</label>
-								<input type="password" class="password" id="password" name="password" title="Password" />
-								<span class="note"><strong>*</strong> Enter your admin password.</span>
-							</span>
-						</li>
-					</ol>
-					<div class="sample-data">
-						<a href="#" id="sample-data" class="btn-secondary">Install sample data</a>
-						<span class="note">Installing sample data is strongly recommended for beginners. 
-						This will install sample content that is included in the Joomla! installation package. <a href="#">Learn more</a>.</span>
-					</div>					
-				</form>
+				<div class="summary">
+					<h3>Site information</h3>
+					<ul class="list-reset">
+						<li><strong>Site name:</strong> <span>Molajito</span></li>
+						<li><strong>Your name:</strong> <span>Chris Rault</span></li>
+						<li><strong>Your email:</strong> <span>chris@prothemer.com</span></li>
+						<li><strong>Admin username:</strong> <span>connectr</span></li>
+					</ul>
+				</div>
+				<div class="remove-install">
+					<a href="#" id="remove-installation" class="btn-secondary">Remove installation directory</a>
+				</div>					
 				
 				<div id="actions">
 					<a href="step2.php" class="btn-secondary">&laquo; <strong>P</strong>revious</a>
-					<a href="#" class="btn-primary">Go to admin &raquo;</a>
+					<a href="#" class="btn-primary alt">Go to admin &raquo;</a>
 					<a href="#" class="btn-primary">View your site &raquo;</a>
 				</div>
 				
